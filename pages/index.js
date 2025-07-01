@@ -60,7 +60,7 @@ export default function Home() {
 
   const renderStatus = () => {
     if (winner) return `Winner: ${winner}`;
-    if (gameOver || board.every(Boolean)) return 'It's a Draw!';
+    if (gameOver || board.every(Boolean)) return "It's a Draw!";
     return `Next player: ${xIsNext ? 'X' : 'O'}`;
   };
 
